@@ -73,6 +73,16 @@ section {
   margin-top: 5rem;
 }
 
+.footer {
+  text-align: center;
+  color: #a9a9a9;
+  padding: 2rem 0;
+}
+
+.footer a {
+  color: #a9a9a9;
+}
+
 @media (max-width: 500px) {
   .container {
     max-width: 90%;
@@ -91,7 +101,7 @@ section {
     gap: 1.69rem;
   }
 
-  .box .img{
+  .box .img {
     gap: 5px;
   }
 
