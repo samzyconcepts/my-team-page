@@ -9,13 +9,13 @@ body {
 }
 
 .container {
-  max-width: 70%;
+  max-width: 60%;
   margin: 3rem auto;
 }
 
 .container header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 header h1 {
@@ -88,7 +88,7 @@ section {
     max-width: 90%;
   }
   .container header {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 38px;
   }
 
